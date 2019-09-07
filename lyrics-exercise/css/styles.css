@@ -1,0 +1,33 @@
+body{ 
+	background-color: #E7F7FA;
+	text-align: center;
+	}
+h1{
+	text-transform:uppercase;
+	font-family: helvetica;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	line-height: 0.8;
+color: #1071AB;}
+
+div{
+		font-family: helvetica;
+		color: #1071AB;
+		font-size: large;
+		font-weight: lighter;}
+	}
+<h3{font-size: small;}
+
+.singer{
+	font-size: small;
+	font-family: helvetica;
+	color: #F3776E;
+	letter-spacing: 2px;
+	line-height: 60%;
+	text-transform: uppercase;}
+
+.footer{
+	color: #F3776E;
+	font-size: small;
+	letter-spacing 1.5px;
+}
