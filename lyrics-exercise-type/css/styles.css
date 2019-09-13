@@ -1,0 +1,33 @@
+body{
+	font-family: starling, serif;
+	text-align: center;
+	background-color: rgb(255, 250, 251);
+	font-size: 1rem;
+}
+#title{font-family: starling, serif;
+font-size: 60pt;
+letter-spacing: 4px;
+}
+
+.name{font-family: mina, serif;
+font-size: 14pt;
+}
+
+.chorus{
+	font-weight: bold;
+	;
+}
+
+.verse{
+	color: rgb(58, 88, 99);
+}
+.pre-chorus{
+	color: rgb(58, 88, 99);
+}
+.emphasize{
+	font-style: italic;
+}
+footer{
+	font-family: starling, serif;
+	font-size: 10pt;
+}
