@@ -1,0 +1,274 @@
+a#btn_pottermore {
+	text-decoration: none;
+	font-family: sofia-pro, sans-serif;
+	font-size: 12px;
+	color: white;
+	background-color:#6b63b5;
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	text-transform: uppercase;
+	padding:18px 31px;
+	border-radius: 30px;
+	letter-spacing: 2px;
+	font-weight: bold;}
+a#btn_pottermore:hover { 
+ 	background-color: white;
+	color: black;
+	border: 1px solid black;
+
+}
+a#btn_pottermore:active {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	transform: scale(.8);
+}
+a#btn_coke {
+	margin:auto;}
+
+a#btn_coke img{
+	height: 50%;
+	width:100;
+	margin-top: 60px;
+}	
+a#btn_coke img:hover{
+	transform: scale(1.2);
+}
+a#btn_coke img:active{
+	transform: scale(1);
+}
+a#btn_mk img{
+	height: 150px;
+	width: 150px;
+	position:relative;
+	top: 50px;
+	border-radius: 50% 50%;
+}
+a#btn_mk img:hover{
+	filter:invert(100%);
+}
+
+a#btn_samsung img{
+	width: 220px;
+	height: auto;
+	position:relative;
+	top:50px;
+}
+
+a#btn_samsung img:active{
+	transform: scale(.8);	
+}
+a#btn_lyft{
+padding:15px 75px;
+border: black solid 1.4px;
+position:relative; 
+top: 80px;
+border-radius: 30px;
+box-shadow: 0px 4px 0px rgba(0,0,0,.3);
+}
+a#btn_lyft:active{
+padding:15px 75px;
+border: black solid 1.4px;
+position:relative; 
+top: 80px;
+border-radius: 30px;box-shadow: 0px 0px 0px rgba(0,0,0,.3);
+}
+
+a#btn_lyft img{
+	z-index: 5;
+	width: 50px;
+	height: auto;
+	position: relative;	
+	top: 14px;
+}
+
+
+a#btn_cn img {
+	width: 200px;
+	height: auto;
+	position: relative;
+	top: 50px;
+	margin: auto;
+
+}
+a#btn_cn{
+	background-color: #fff000;
+	padding: 76px 15px 66px; 
+	box-shadow: 5px 5px 0px rgba(0,0,0,.3);
+	
+}
+a#btn_cn:hover{
+	background-color: #00AEEF;
+	padding: 76px 15px 66px;
+	
+}
+a#btn_cn:active{
+	box-shadow: 5px 5px 0px rgba(0,0,0,0);
+}
+
+
+a#btn_sardella{
+text-decoration: none;	
+font-family: adobe-caslon-pro, serif;
+color: #0706c4;
+padding: 21px 16px 16px 16px;
+background-color: #00ffce;
+font-size: 42px;
+position: relative;
+top: 80px;
+text-align: center;
+}
+
+
+a#btn_sardella:hover{
+	text-decoration: none;
+	color:#00ffce;
+	background-color: #0706c4;
+}
+a#btn_sardella:active{
+	background-color: #00ffce;
+	color: white;
+	}
+
+a#btn_ibm img:hover{
+box-shadow: 0px 10px 0px #0062ff;
+}
+a#btn_ibm img:active{
+	transform: scale(.7);
+	box-shadow: 0px 10px 0px #0062ff;
+}
+
+a#btn_ibm img{
+	width: 200px;
+	height: auto;
+	position: relative;
+	top: 50px;
+	margin: auto;}
+
+
+a#btn_hd {
+	position:relative;
+	margin:auto;
+	background-color: black;
+	padding: 86px 0px;
+}
+
+a#btn_hd:hover{
+	position:relative;
+	margin:auto;
+	background-color: #f60;
+	padding: 86px 0px;
+}
+
+
+
+a#btn_hd img {
+	width: 200px;
+	height: auto;
+	position: relative;
+	top: 50px;
+	margin: auto;
+}
+
+a#btn_otl{
+	text-decoration: none;
+	color:#00afd5;
+	border: solid 1.5px #00afd5;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	margin:auto;
+	position:relative;
+	top:100px;
+}
+a#btn_otl:active{
+	color: white;
+	background-color:#00afd5; 
+}
+a#btn_nym img{
+	width: 200px;
+	height: auto;
+	position: relative;
+	top: 50px;
+	margin: auto;
+}
+a#btn_nym {
+	background-color: #0787ca;
+	padding: 85px 25px 85px 25px;
+	position: relative;
+	margin:auto;
+	border-radius: 5px;
+}
+a#btn_nym:hover{
+	background-color: white;
+}
+a#btn_oldnavy{
+	font-family: Helvetica,Arial,sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: bold;
+	color:white;
+	background-color: #003764;
+	position:relative;
+	top: 100px;
+	padding:10px 20px;
+}
+a#btn_oldnavy:hover{
+	background-color: #003764;
+	color:#ddd}
+a#btn_insta img{
+width: 100px;
+height:100px;
+position:relative;
+top: 70px;}
+
+a#btn_insta img:hover{
+	transform:scale(1.2);}
+
+a#btn_insta img:active{
+	transform:scale(1);
+}
+a#btn_npr{
+text-decoration: none;
+font-family: helvetica;
+color:white;
+background-color:#D0021B;
+font-weight: bolder;
+letter-spacing: 3px;
+font-size: 30px;
+position:relative;
+top:100px;
+padding: 19px 10px;
+}
+a#btn_npr:hover{
+	background-color:black;
+	color:white; 
+}
+a#btn_npr:active{
+	background-color:#2C63ae;
+	color:white; 
+}
+a#btn_color{
+	text-decoration: none;
+	font-family: Montserrat,sans-serif;
+	text-transform: uppercase;
+	color:#ffc107;;
+	background-color: #e83e8c;
+	font-size: 20px;
+	position:relative;
+	top:115px;
+	padding: 19px 40px;
+}
+a#btn_color:hover{
+	background-color: #6610f2;
+	color: white;
+
+	
+}
+
+
+
+
+
+
