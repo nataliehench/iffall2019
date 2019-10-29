@@ -1,0 +1,111 @@
+body{
+	background-color: #FFFBFC;
+	font-family: acumin-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	margin:0px;}
+
+section{
+	margin: 0px 30px 20px 20px;
+}
+
+img{
+	width: 100%;}
+a{
+	text-decoration: none;
+	z-index: 10;
+	font-size: 10pt;
+	color: #F597AF;
+	margin: 0px 30px 20px 20px;
+	position: relative;
+	left: 305px;
+	top: -43px;
+
+}
+#first_link{
+	text-decoration: none;
+	z-index: 10;
+	font-size: 10pt;
+	color: #F597AF;
+	margin: 0px 30px 20px 20px;
+	position: relative;
+	left: 305px;
+	top: -58px;
+}
+
+ul {
+	margin:0;
+	list-style-type: none;}
+
+.directions li{
+	margin-bottom: 20px;}
+.notes li{
+	list-style: circle;
+	margin-bottom: 10px;
+}
+.ingredients li{
+	margin-bottom: 5px;
+}
+div{
+	text-align: center;
+	margin: 0px 20px 0px 20px;
+	padding: 5px;
+	box-sizing:content-box;
+	position: relative;
+	bottom: 226px;
+	color: #F597AF;
+	z-index: 10;
+	font-size: 10pt;
+	
+
+}
+
+img{
+	padding-bottom: 10px;
+}
+
+header{
+	background-image:url(../images/macarons-stack.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 195px 0px}
+h1 {
+	font-size: 43pt;
+	line-height: 52px;
+	position: relative;
+	text-align: center;
+	margin: auto;
+	z-index: 10;
+	background-color: rgba(255,255,255,0.9);
+	padding: 10px 20px 35px 20px;
+	box-sizing:content-box;}
+
+h2{
+	font-size: 27pt;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+h1, h2, h3{
+font-family: rockwell, sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-bottom: 0;
+color: #3a6570;}
+
+img#first{
+	width:100%;
+	height: auto;
+	position:relative;
+	top:-168px;
+}
+
+h1#feedback 
+{z-index: 0;
+	position: relative;
+}
+
+section.feedback{
+	margin:auto;
+	padding: 50px 50px 0px 50px;
+}
