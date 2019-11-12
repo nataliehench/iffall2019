@@ -1,0 +1,234 @@
+html,body{
+height: 100%;
+margin:0;
+background-size: cover;}
+
+#one{
+	background-image: url("../images/Dumbledore1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;}
+
+
+#two{
+	background-image: url("../images/Hogwarts1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;}
+
+#three{
+	background-image: url("../images/Alley1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top right;}
+
+#quote{
+	z-index: 10;
+	position: absolute;
+	top: 9%;
+	left: 7%;
+	width:45%;
+	font-family: adobe-caslon-pro, serif;
+	font-weight: 600;
+	font-style: normal;
+	color: white;
+	font-size: 22pt;
+	line-height: 35px;
+}
+
+#quote:before {
+content:"“";
+position: absolute;
+top: 0;
+left: -10px;
+}
+
+
+#quote2{
+z-index: 10;
+	position: absolute;
+	top: 12%;
+    right: 3%;
+	font-family: adobe-caslon-pro, serif;
+	font-weight: 600;
+	font-style: normal;
+	color: #360E22;
+	font-size: 25pt;
+	width: 28%;
+	line-height: 34px;
+
+}
+
+#quote2:before {
+content:"“";
+position: absolute;
+top: 0;
+left: -12px;
+}
+
+#quote3{
+	z-index: 10;
+	position: absolute;
+	top: 6%;
+	font-family: adobe-caslon-pro, serif;
+	font-weight: 600;
+	font-style: normal;
+	color: black;
+	font-size: 25pt;
+	right: 8%;
+	width: 38%;
+	line-height: 37px;
+}
+
+#quote3:before {
+content: open-quote;
+position: absolute;
+top: 0;
+left: -12px;
+}
+
+
+#book{
+	z-index: 10;
+	position: absolute;
+	top: 25%;
+	left: 30%;
+	width: 20%;
+	text-align: right;
+	font-family: adobe-caslon-pro, serif;
+	font-weight: 600;
+	font-style: normal;
+	text-transform: uppercase;
+	color: white;
+	line-height: 16pt;
+	font-size: 11pt;
+	
+}
+
+#book2{
+	z-index: 10;
+	position: absolute;
+	top: 40%;
+	right: 6%;
+	text-align: right;
+	font-family: adobe-caslon-pro, serif;
+	font-weight: 600;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #360E22;
+	font-size: 12pt;
+	line-height: 16pt;
+	width: 20%;
+}
+#book3{
+	z-index: 10;
+	position: absolute;
+	top: 25%;
+	right: 11%;
+	width:20%;
+	line-height: 16pt; 
+	font-family: adobe-caslon-pro, serif;
+	font-weight: 600;
+	font-style: normal;
+	text-transform: uppercase;
+	color: black;
+	font-size: 12pt;
+	text-align: right;
+}
+
+@media (max-width: 827px){
+	#quote{
+		font-size: 18pt;
+		line-height: 25px;}
+	#book{
+		font-size:10pt;
+		
+	}}
+@media (max-width:800px){
+	#quote3{
+		font-size:18pt;
+		line-height: 21pt;
+		width: 42%;
+	}
+
+	#book3{
+		font-size: 10pt;
+		top:23%;
+		width: 30%;
+		line-height:13pt;
+	}
+	}
+
+
+@media (max-width:870px){
+	#quote2{
+	font-size: 20pt;
+	line-height: 22pt;
+	right: 2%
+ }
+ 	#book2{
+ 		font-size: 10pt;
+ 		width:23%;
+ 	}
+}
+
+@media (max-width: 700px){
+	#two{
+		background-image: url("../images/Hogwarts2.jpg");
+		background-position:right center;
+	}
+		#quote2{
+		font-size: 18pt;
+		line-height: 22pt;
+		right: 10%;
+		top: 10%;
+ }
+ 	#book2{
+ 		font-size: 9pt;
+ 		width:25%;
+ 		right: 10%;
+ 		line-height: 13pt;
+ 		top: 36%;
+ 	}
+}
+
+	
+@media (max-width: 600px) {
+	#one{
+		background-image: url("../images/Dumbledore2.jpg");
+		background-size: cover;
+		background-position:bottom center;
+	}
+	
+	
+	#book{
+		font-size: 10pt;
+		top: 30%;
+		width: 30%;
+		left: 40%
+	}
+	#quote{
+		font-size:15pt;
+		line-height: 24px;
+		width: 50%;
+	}
+
+@media (max-width: 524px){
+	#book2{
+ 		width:30%;
+ 		right: 10%;
+ 		top: 44%;}
+ 	#quote{
+ 		font-size: 16pt;
+ 		line-height: 16px;
+}
+@media (max-width: 510px){
+	#quote3{
+		right:42%;
+		width: 50%;
+	}
+
+	}
+
+	
+
